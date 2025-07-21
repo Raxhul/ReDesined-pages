@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMW M4 G82 | The Ultimate Driving Machine</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --bmw-blue: #1C69D4;
+      --bmw-darkblue: #0A2C74;
+      --bmw-black: #000000;
+      --bmw-white: #ffffff;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-white to-gray-100 text-gray-900 relative">
+
+  <!-- NAVBAR -->
+  <nav class="flex justify-between items-center px-10 py-4 fixed w-full top-0 z-50 bg-white/70 backdrop-blur-lg shadow-sm">
+    
+    <!-- Logo Section -->
+    <div class="flex items-center gap-4">
+      <!-- BMW Logo -->
+      <div class="flex items-center gap-2">
+        <img class="w-10 h-10 rounded-full" src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" alt="BMW Logo">
+        <span class="text-xl font-bold text-[var(--bmw-darkblue)]">BMW</span>
+      </div>
+
+      <!-- German Flag -->
+      <div class="flex items-center gap-1 bg-white rounded-full shadow px-2 py-1">
+        <img class="w-6 h-4 rounded-sm" src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg" alt="German Flag">
+        <span class="text-xs text-gray-600 font-semibold">Made in Germany</span>
+      </div>
+    </div>
+
+    <!-- Menu -->
+    <ul class="flex gap-8 text-sm font-medium">
+      <li class="cursor-pointer hover:text-[var(--bmw-blue)] transition">Models</li>
+      <li class="cursor-pointer hover:text-[var(--bmw-blue)] transition">Configurator</li>
+      <li class="cursor-pointer hover:text-[var(--bmw-blue)] transition">M Performance</li>
+      <li class="cursor-pointer hover:text-[var(--bmw-blue)] transition">Contact</li>
+    </ul>
+
+    <!-- Profile -->
+    <div class="flex gap-4 items-center">
+      <button class="px-4 py-2 rounded-full border border-gray-400 hover:border-[var(--bmw-blue)] hover:text-[var(--bmw-blue)] transition">Login</button>
+      <div class="w-9 h-9 rounded-full bg-gray-300 flex items-center justify-center hover:ring-2 hover:ring-[var(--bmw-blue)] transition">
+        <img class="w-6 rounded-full" src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="">
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="relative flex flex-col items-center justify-center text-center pt-32">
+    
+    <h1 class="text-6xl font-extrabold tracking-wide text-[var(--bmw-black)]">BMW M4 Competition</h1>
+    <p class="text-gray-600 mt-3 text-lg">The Ultimate Driving Machine. <span class="text-[var(--bmw-blue)] font-semibold">Precision Meets Luxury.</span></p>
+    
+    <!-- Car Image -->
+    <div class="relative w-full flex justify-center mt-8">
+      <!-- BMW Blue Glow -->
+      <div class="absolute w-[700px] h-[400px] bg-[var(--bmw-blue)]/10 blur-3xl rounded-full top-20"></div>
+      <img class="w-[1100px] drop-shadow-2xl hover:scale-105 transition duration-700" 
+           src="./bmw-m4.png" 
+           alt="BMW M4 G82">
+    </div>
+
+    <!-- Quick Specs -->
+    <div class="mt-10 flex gap-10 bg-white/80 backdrop-blur-md rounded-xl p-6 shadow-lg border border-gray-200">
+      <div class="flex flex-col">
+        <span class="text-sm text-gray-500">Engine</span>
+        <span class="text-xl font-bold">3.0L Twin-Turbo I6</span>
+      </div>
+      <div class="flex flex-col">
+        <span class="text-sm text-gray-500">Power</span>
+        <span class="text-xl font-bold text-[var(--bmw-blue)]">510 hp</span>
+      </div>
+      <div class="flex flex-col">
+        <span class="text-sm text-gray-500">0-100 km/h</span>
+        <span class="text-xl font-bold">3.9 sec</span>
+      </div>
+      <div class="flex flex-col">
+        <span class="text-sm text-gray-500">Top Speed</span>
+        <span class="text-xl font-bold">290 km/h</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE HIGHLIGHTS -->
+  <section class="mt-24 px-16 text-center">
+    <h2 class="text-3xl font-bold text-[var(--bmw-darkblue)]">Performance Highlights</h2>
+    <p class="text-gray-600 mt-2">Cutting-edge M engineering designed for sheer driving pleasure.</p>
+    
+    <!-- Features Grid -->
+    <div class="grid grid-cols-3 gap-8 mt-12">
+      <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition border-t-4 border-[var(--bmw-blue)]">
+        <div class="text-[var(--bmw-blue)] text-4xl mb-4">⚡</div>
+        <h3 class="text-lg font-bold">Adaptive M Suspension</h3>
+        <p class="text-gray-500 text-sm mt-2">Precision handling with adjustable driving modes for every road condition.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition border-t-4 border-[var(--bmw-blue)]">
+        <div class="text-[var(--bmw-blue)] text-4xl mb-4">🛡️</div>
+        <h3 class="text-lg font-bold">M xDrive Technology</h3>
+        <p class="text-gray-500 text-sm mt-2">Optimized traction and performance with intelligent all-wheel drive.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition border-t-4 border-[var(--bmw-blue)]">
+        <div class="text-[var(--bmw-blue)] text-4xl mb-4">🎵</div>
+        <h3 class="text-lg font-bold">Harman Kardon Sound</h3>
+        <p class="text-gray-500 text-sm mt-2">Premium surround sound system for an immersive driving experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLOR SELECTION -->
+  <section class="mt-24 px-16 text-center">
+    <h2 class="text-3xl font-bold text-[var(--bmw-darkblue)]">Choose Your Color</h2>
+    <p class="text-gray-600 mt-2">Personalize your M4 with exclusive BMW finishes</p>
+    <div class="flex justify-center gap-6 mt-8">
+      <div class="w-12 h-12 rounded-full bg-white border hover:ring-2 hover:ring-[var(--bmw-blue)] transition"></div>
+      <div class="w-12 h-12 rounded-full bg-black hover:ring-2 hover:ring-[var(--bmw-blue)] transition"></div>
+      <div class="w-12 h-12 rounded-full bg-[var(--bmw-blue)] hover:ring-2 hover:ring-[var(--bmw-darkblue)] transition"></div>
+      <div class="w-12 h-12 rounded-full bg-gray-400 hover:ring-2 hover:ring-[var(--bmw-blue)] transition"></div>
+      <div class="w-12 h-12 rounded-full bg-yellow-500 hover:ring-2 hover:ring-[var(--bmw-blue)] transition"></div>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section class="mt-24 mb-20 text-center">
+    <h2 class="text-3xl font-bold text-[var(--bmw-darkblue)]">Experience the BMW M4 Today</h2>
+    <p class="text-gray-600 mt-2">Book a test drive or customize your dream M4 online.</p>
+    <button class="mt-6 px-8 py-3 bg-[var(--bmw-blue)] text-white rounded-full shadow-md hover:bg-[var(--bmw-darkblue)] hover:scale-105 transition">
+      Book a Test Drive →
+    </button>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[var(--bmw-black)] text-center py-6 text-gray-300 text-sm">
+    © 2025 BMW AG · Made in Germany 🇩🇪
+  </footer>
+
+</body>
+</html>
